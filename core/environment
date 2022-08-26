@@ -1,0 +1,7 @@
+Create python Virtual Environment 
+
+py -m venv env(environment name)cd 
+
+How to activate a Python virtual environment in Windows
+cd env
+Scripts\activate
