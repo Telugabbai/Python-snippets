@@ -5,7 +5,7 @@
 # Paper wins against rock.
 # 0 for Rock, 1 for Paper and 2 scissors.
 
-from random import randint,choice
+from random import randint, choice
 
 rock = '''
     _______
