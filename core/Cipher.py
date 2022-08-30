@@ -1,3 +1,5 @@
+# from art import logo
+# print(logo)
 
 def caesar():
 
@@ -8,6 +10,7 @@ def caesar():
     shift = int(input("Enter the shift: "))
 
     cipher_text = ""
+
     if direction == 'encode':
         for letter in msg:
             msg_char = alphabet.index(letter)
@@ -24,3 +27,6 @@ def caesar():
         print(f"Your Decoded cipher text is : {cipher_text} ")
     else:
         print(" Enter valid option")
+
+
+caesar()
